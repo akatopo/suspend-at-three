@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const program = require('commander');
-const recipe = require('./recipe');
-const execute = require('./execute');
 const log = require('nlogn');
+const program = require('commander');
+const recipe = require('../src/recipe');
+const execute = require('../src/execute');
+const { version } = require('../package.json');
 
 program
-  .version('0.3.0')
+  .version(version)
   .option('-c --configuration <file>', 'JSON configuration file')
   .parse(process.argv);
 

@@ -1,7 +1,10 @@
 {
   "name": "suspend-at-three",
-  "version": "0.0.1",
+  "version": "0.3.1",
   "main": "src/index.js",
+  "bin": {
+    "suspend-at-three": "./bin/suspend-at-three.js"
+  },
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
