@@ -9,7 +9,7 @@
     "is-domain-name": "^1.0.1",
     "later": "^1.2.0",
     "nlogn": "^1.1.2",
-    "notification-proxy": "git+ssh://git@github.com:akatopo/notification-proxy.git#4bc7cf5",
+    "notification-proxy": "git+https://github.com/akatopo/notification-proxy.git#4bc7cf5",
     "ramda": "^0.24.1"
   },
   "devDependencies": {
