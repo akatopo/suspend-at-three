@@ -1,0 +1,24 @@
+{
+  "dir": "ltr",
+  "lang": "en-US",
+  "body": "Laptop will suspend in 30 minutes",
+  "renotify": true,
+  "tag": "suspend-notification",
+  "vibrate": [300],
+  "image": "",
+  "icon": "https://www.dropbox.com/s/agjo32e86w311eu/cat-sleep-icon.png?dl=1",
+  "badge": "https://www.dropbox.com/s/jlcukgh0sytr421/ic_laptop_black_48dp.png?dl=1",
+  "actions": [
+    {
+      "action": "snooze",
+      "title": "Snooze for an hour"
+    }
+  ],
+  "silent": false,
+  "requireInteraction": true,
+  "sticky": false,
+  "notificationCloseEvent": false,
+  "data": {
+    "title": "Laptop Suspend"
+  }
+}

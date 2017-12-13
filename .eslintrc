@@ -1,0 +1,61 @@
+{
+  "extends": "eslint-config-airbnb-base",
+  "rules": {
+    "indent": ["error",  2, { "SwitchCase": 1, "outerIIFEBody": 0, "MemberExpression": "off" }],
+    "quotes": ["error", "single"],
+    "vars-on-top": 0,
+    "camelcase": ["error", { "properties": "always" }],
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+    "func-call-spacing": ["error", "never"],
+    "curly": ["error", "all"],
+    "keyword-spacing": ["error", {}],
+    "space-before-blocks": ["error", "always"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "array-bracket-spacing": ["error", "never", {}],
+    "space-in-parens": ["error", "never"],
+    "comma-style": ["error", "last"],
+    "space-unary-ops": ["error", { "words": false, "nonwords": false }],
+    "space-infix-ops": "error",
+    "no-with": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-trailing-spaces": "error",
+    "eol-last": "error",
+    "dot-notation": "error",
+    "no-multi-str": "error",
+    "key-spacing": ["error", { "afterColon": true }],
+    "no-use-before-define": ["error", "nofunc"],
+    "spaced-comment": ["error", "always", {
+      "line": {
+        "markers": ["/", "//"],
+        "exceptions": ["/"]
+      },
+      "block": { "balanced": true }
+    }],
+    "no-plusplus": 0,
+    "no-mixed-operators": ["error", { "allowSamePrecedence": true }],
+    "operator-assignment": ["error", "never"],
+    "func-names": 0,
+    "padded-blocks": 0,
+    "no-param-reassign": 0,
+    "no-throw-literal": 0,
+    "no-inner-declarations": ["error", "both"],
+    "arrow-parens": ["error", "always", {
+      "requireForBlockBody": true
+    }],
+    "no-console": 0,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "function-paren-newline": ["error", "consistent"]
+
+  }
+}
